@@ -1,2 +1,2 @@
-ecoh hi
+echo hi
 pause
