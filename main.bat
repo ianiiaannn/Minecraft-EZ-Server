@@ -11,7 +11,7 @@ set type=Vanilla
 echo 請輸入伺服器版本
 set /p ver=
 echo 呼叫主檔案伺服器下載網址中...
-@curl -O https://ianiiaannn.github.io/Minecraft-EZ-Server/Forwarding/%type%/%ver%.tmp
+@curl -O https://ianiiaannn.github.io/minecraft-ez-server/Forwarding/%type%/%ver%.tmp
 set /p link=<%ver%.tmp
 del %ver%.tmp
 echo 已取得伺服器主檔案下載網址：%link%
